@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px 20px;
+
+}
+h1{
+    color: rgb(2, 108, 2);
+    margin: 10px 10px;
+}
+h2{
+    margin: 10px 10px;
+}
+#span1{
+    animation-name: s1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes s1 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#span2{
+    animation-name: s2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+}
+@keyframes s2 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#span3{
+    animation-name: s3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1000ms;
+}
+@keyframes s3 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#span4{
+    animation-name: s4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1500ms;
+}
+@keyframes s4 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}
+#span5{
+    animation-name: s5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2000ms;
+}
+@keyframes s5 {
+    to{
+        font-size: 35px;
+        color: green;
+    }
+}

@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+header{
+    height: 50px;
+    background-color: dodgerblue;
+    padding: 0px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+#umumi{
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: dodgerblue;
+}
+#ilk{
+    border-radius: 10% 0 0 0;
+    -webkit-border-radius: 10% 0 0 0;
+    -moz-border-radius: 10% 0 0 0;
+    -ms-border-radius: 10% 0 0 0;
+    -o-border-radius: 10% 0 0 0;
+}
+#ilk:hover {
+    position: relative;
+    background-color: rgb(29, 81, 133);
+}
+#ilk ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+#ilk:hover ul {
+    display: block;
+}
+#ilk:hover  li{
+    animation-name: ilk;
+    animation-duration: 500ms;
+    animation-delay: calc(0.1s*var(--i));
+}
+@keyframes ilk {
+    to{
+        transform: rotateX(360deg);
+        -webkit-transform: rotateX(360deg);
+        -moz-transform: rotateX(360deg);
+        -ms-transform: rotateX(360deg);
+        -o-transform: rotateX(360deg);
+}
+}
+#iki:hover{
+    position: relative;
+    background-color: rgb(29, 81, 133);
+}
+#iki ul{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 50px;
+}
+#iki:hover ul{
+    display: block;
+}
+#iki:hover li{
+    animation-name:iki;
+    animation-duration: 500ms;
+    animation-delay: calc(0.1s*var(--i));
+}
+@keyframes iki {
+    from{
+        transform-origin: top center;
+        
+        transform: scale(1.5);
+        transform: translateY(-10px);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+}
+}
+#uc:hover {
+    position: relative;
+    background-color: rgb(29, 81, 133);
+}
+#uc>ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+#uc:hover ul{
+    display: block;
+}
+#uc:hover ul li{
+    animation-name: ilk;
+    animation-duration: 500ms;
+    animation-delay: calc(0.1s*var(--i));
+}
+#dord:hover{
+    position: relative;
+    background-color: rgb(29, 81, 133);
+}
+#dord ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+#dord:hover ul{
+    display: block;
+}
+#dord:hover ul li{
+    animation-name: ilk;
+    animation-duration: 500ms;
+    animation-delay: calc(0.1s*var(--i));
+}
+#son:hover{
+    position: relative;
+    background-color: rgb(29, 81, 133);
+}
+#son{
+    border-radius: 0 10% 0 0;
+    -webkit-border-radius: 0 10% 0 0;
+    -moz-border-radius: 0 10% 0 0;
+    -ms-border-radius: 0 10% 0 0;
+    -o-border-radius: 0 10% 0 0;
+}
+#son ul{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 50px;
+}
+#son:hover ul{
+    display: block;
+}
+#son:hover ul li{
+    animation-name: ilk;
+    animation-duration: 500ms;
+    animation-delay: calc(0.1s*var(--i));
+}

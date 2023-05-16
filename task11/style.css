@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 25px 25px;
+}
+main{
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    position: relative;
+    border: 5px solid rgb(169, 169, 169);
+
+}
+div{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    animation-name: div;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes div {
+    0%{
+        top: 20px;
+        left: 20px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: blueviolet;
+    }
+    25%{
+        top: 20px;
+        left: 330px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        background-color: red;
+        
+}
+    50%{
+        top: 330px;
+        left: 330px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: green;
+    }
+    75%{
+        top: 330px;
+        left: 20px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        background-color: darkorange;
+    }
+    100%{
+        top: 20px;
+        left: 20px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: blueviolet;
+    }
+    
+}

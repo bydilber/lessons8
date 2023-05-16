@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.class1{
+   position: absolute;
+   top: 20vh; 
+   left: 70vh;
+}
+.class2{
+    position: absolute;
+    top: 40vh;
+    left: 70vh;
+}
+p{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px 10px;
+}
+@keyframes identifier1 {
+    0%{
+        background-color: blue;
+        width: 40%;
+    }
+    50%{
+        background-color: blue;
+        width: 60%;
+    } 
+    100%{
+        background-color: blue;
+        width: 80%;
+    }  
+}
+#box1, #box2{
+    width: 400px;
+    height: 60px;
+    /* background-color: rgb(4, 4, 211); */
+    border: 2px solid gray;
+}
+#blue1{
+    height: 56px;
+    width: 40%;
+    background-color: blue;
+    animation-name: identifier1;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+

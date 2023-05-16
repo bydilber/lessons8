@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: green;
+    margin: 20px 20px;
+}
+h3{
+    margin: 15px 15px;
+}
+button:active{
+    color: green;
+    border:2px solid green;
+    width: 200px;
+    height: 60px;
+    transform: skew(0);
+    -webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -ms-transform: skew(0);
+    -o-transform: skew(0);
+}
+button{
+    width: 200px;
+    height: 60px;
+    margin-left: 40px;
+    border: 2px solid black;
+    transform: skew(-30deg);
+    transition: all 0.5s ;
+    -webkit-transition: all 0.5s ;
+    -moz-transition: all 0.5s ;
+    -ms-transition: all 0.5s ;
+    -o-transition: all 0.5s ;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+}

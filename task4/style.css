@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    margin: 20px 20px;
+}
+#p1{
+    margin-bottom: 20px;
+}
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+}
+h1{
+    align-self: center;
+}
+ #red{
+    position: absolute;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+ #blue{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+ #yellow{
+    position: absolute;
+    right: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+}
+ #green{
+    position: absolute;
+    right: 150px;
+    top: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+.container:hover #red{
+    transition-duration: 500ms;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: top left;
+}
+.container:hover #yellow{
+    transition-duration: 500ms;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: top right;
+}
+.container:hover #blue{
+    transition-duration: 500ms;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+.container:hover #green{
+    transition-duration: 500ms;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: bottom right;
+}
+#red{
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+}
+#yellow{
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+}
+#blue{
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+}
+#green{
+    transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+}
+#p2{
+    position: absolute;
+    top: 400px;  
+}

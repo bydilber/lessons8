@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    margin: 25px 25px;
+    padding: 25px 15px;
+    background-color: rgb(89, 13, 241);
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+div:hover{
+    cursor: pointer;
+    margin: 25px 25px;
+    padding: 25px 15px;
+    background-color: rgb(216, 152, 250);
+    width: 350px;
+    height: 350px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
